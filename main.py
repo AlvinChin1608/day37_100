@@ -50,7 +50,7 @@ print(today.strftime("%Y%m%d")) # 20240615
 
 pixel_data = {
     "date": today.strftime("%Y%m%d"), # format yyyymmdd
-    "quantity": "15",  # km
+    "quantity": input("How many kilometers did you run today? "),  # km
 }
 
 # # To add data
